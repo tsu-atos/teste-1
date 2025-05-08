@@ -1,11 +1,3 @@
-# Ignorar arquivos por extensão
-*.log         # Arquivos de log
-*.env         # Arquivos de ambiente (credenciais)
-*.pyc         # Arquivos compilados do Python
-*.tmp         # Arquivos temporários
-
-# Ignorar diretórios
-node_modules/       # Dependências do Node.js
-__pycache__/        # Cache do Python
-.env/               # Diretório com variáveis de ambiente (se usado como pasta)
-build/              # Diretório de build (compilados, empacotamento, etc.)
+*.log
+*.env
+build/
